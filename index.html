@@ -3,20 +3,15 @@
     <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
       <link rel="stylesheet" href="./css/bootstrap.min.css">
-
       <title>Практика 6.8</title>
     </head>
     <body>
 
     <div class="progress">
-  ​
-      <div id="success" class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+        <div id="success" class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
       </div>
-  ​
-    </div><br>
-  ​
+      </div><br>
     <button class="btn btn-info" onclick = "change1(1);">+ 1%</button>
     <button class="btn btn-warning" onclick="change1(3);">+ 3%</button>
     <button class="btn btn-danger" onclick=" change1(7);">+ 7%</button> 
@@ -24,7 +19,6 @@
     <script src="./js/jquery-3.4.1.min.js"></script>
     <script src="./js/bootstrap.bundle.min.js"></script>
     <script>
-
       var elem = 0;
       function change1(element) {
         elem = elem + element;
@@ -34,7 +28,6 @@
         console.log(elem);
         $('#success').width(elem +'%');
       }
-
     </script>
   </body>
 </html>
